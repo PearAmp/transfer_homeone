@@ -118,7 +118,7 @@ class _ShowSecondPageState extends State<ShowSecondPage> {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(10),
                           child: Container(
-                            padding: EdgeInsets.symmetric(horizontal: 10),
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
                             color: Colors.white,
                             child: TextField(
                               decoration: InputDecoration(
@@ -136,7 +136,7 @@ class _ShowSecondPageState extends State<ShowSecondPage> {
                         child: ClipRRect(
                           borderRadius: BorderRadius.circular(10),
                           child: Container(
-                            padding: EdgeInsets.symmetric(horizontal: 10),
+                            padding: const EdgeInsets.symmetric(horizontal: 10),
                             color: Colors.white,
                             child: TextField(
                               decoration: InputDecoration(
@@ -160,11 +160,12 @@ class _ShowSecondPageState extends State<ShowSecondPage> {
                             flex: 2,
                             child: ClipRRect(
                               borderRadius: const BorderRadius.only(
-                                topLeft: Radius.circular(25),
-                                topRight: Radius.circular(25),
+                                topLeft: Radius.circular(14),
+                                topRight: Radius.circular(14),
                               ),
                               child: Container(
-                                padding: EdgeInsets.symmetric(horizontal: 10),
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 10),
                                 color: HexColor('#244EB9'),
                                 height: 49,
                                 child: Padding(
@@ -211,17 +212,18 @@ class _ShowSecondPageState extends State<ShowSecondPage> {
                             flex: 2,
                             child: ClipRRect(
                               borderRadius: const BorderRadius.only(
-                                bottomLeft: Radius.circular(25),
-                                bottomRight: Radius.circular(25),
+                                bottomLeft: Radius.circular(14),
+                                bottomRight: Radius.circular(14),
                               ),
                               child: Container(
-                                padding: EdgeInsets.symmetric(horizontal: 10),
+                                padding:
+                                    const EdgeInsets.symmetric(horizontal: 10),
                                 color: Colors.white,
                                 height: 100,
                                 child: TextField(
                                   decoration: InputDecoration(
                                     border: InputBorder.none,
-                                    hintText: 'หมายเหตุ',
+                                    hintText: '',
                                     hintStyle: GoogleFonts.kanit(fontSize: 15),
                                   ),
                                 ),
